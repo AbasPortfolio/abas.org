@@ -954,7 +954,7 @@ body.darkTheme{
 
 /* =========================== BREAKPOINTS ================== */
 /* ============ FOR SMALL DEVICES ========== */
-@media screen and (max-width: 340px){
+@media screen and (min-width: 340px){
     .container{
         margin-inline: 1rem;
     }
@@ -963,7 +963,7 @@ body.darkTheme{
     }
     
     .about__image{
-        width: 180px;
+        width: 280px;
     }
     .about__shadow{
         height: 330px;
@@ -977,7 +977,7 @@ body.darkTheme{
     }
 }
 /* ============ FOR MEDIUM DEVICES ========== */
-@media screen and (max-width: 576px){
+@media screen and (min-width: 576px){
     .home__container,
     .about__container,
     .projects__container{
@@ -1019,9 +1019,9 @@ body.darkTheme{
     .dark-theme .contact__social-arrow{
         filter: none;
     }
-    @media screen and (min-width: 768px){
+    @media screen and (max-width: 768px){
         .home__img{
-            display: none;
+            display: block;
         }
         .services__container{
             grid-template-columns: repeat(2, 250px);
