@@ -406,7 +406,7 @@ body.darkTheme{
 .home__social-link{
     background-color: transparent;
     color: #555353;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 12px;
     display: grid;
     place-items: center;
