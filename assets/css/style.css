@@ -1110,6 +1110,12 @@ body.darkTheme{
     .home__img{
         width: 460px;
     }
+    .home__image{
+        width: 350px;
+        object-fit: cover;
+        over-flow: hidden;
+        align-self: center;
+    }
     
     .home__shadow{
         right: -1.25rem;
