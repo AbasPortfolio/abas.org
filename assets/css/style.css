@@ -716,6 +716,10 @@ body.darkTheme{
 .projects__card:hover{
     background-color: var(--white-color);
 }
+.projects__card:hover, .project__title{
+    background-color: var(--white-color);
+    color: #222;
+}
 /* ====================== CONTACTS ========================= */
 .contact{
     padding-bottom: 0;
