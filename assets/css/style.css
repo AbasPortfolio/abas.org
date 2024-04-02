@@ -713,12 +713,10 @@ body.darkTheme{
 .projects__link:hover i{
     color: var(--first-color);
 }
-.projects__card:hover{
+.projects__card:hover,
+.projects__card:hover .projects__title{
     background-color: var(--white-color);
-}
-.projects__card:hover, .project__title{
-    background-color: var(--white-color);
-    color: #222;
+    color: #222222;
 }
 /* ====================== CONTACTS ========================= */
 .contact{
