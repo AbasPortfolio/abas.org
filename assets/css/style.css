@@ -1033,6 +1033,7 @@ body.darkTheme{
 }
 /* ============ FOR LARGE DEVICES ========== */
 @media screen and (min-width: 1050px){
+    
     .container{
         margin-inline: auto;
     }
@@ -1089,7 +1090,8 @@ body.darkTheme{
         background-color: transparent;
     }
     .nav__logo img{
-        width: 100px;
+        width: 300px;
+        object-fit: cover;
     }
     .change-theme{
         color: var(--text-color);
