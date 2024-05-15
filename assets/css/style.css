@@ -355,7 +355,7 @@ body.darkTheme{
     justify-self: center;
 }
 .home__image{
-    width: 450px;
+    width: 350px;
 }
 .home__img{
     position: relative;
@@ -433,7 +433,7 @@ body.darkTheme{
     background: linear-gradient(90deg, hsla(152, 89%, 21%, 0.3),
     hsla(14, 98%, 50%, 0));
     font-family: "Montserrat";
-    font-weight: 600;
+    font-weight: 400;
 }
 .home__scroll{
     display: block;
