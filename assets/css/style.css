@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+J=Jamjuree:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ===================== VARIABLES CSS ================ */
 :root{
@@ -18,7 +18,7 @@
 
     /* ================== FONTS AND TYPOGRAPHY ============== */
     /* .5rem = 8px | 1rem = 16px ==== */
-    --body-font: "Bai Jamjuree", sans-serif;
+    --body-font: "Montserrat", sans-serif;
     --biggest-font-size: 2.5rem;
     --h1-font-size: 1.75rem;
     --h2-font-size: 1.25rem;
@@ -422,6 +422,8 @@ body.darkTheme{
 }
 .home__description{
     text-align: center;
+    font-family: "Caveat";
+    font-weight: 400;
     color: #1a573d;
     margin-bottom: 1.5rem;
 }
@@ -429,6 +431,8 @@ body.darkTheme{
     color: #191b1a;
     background: linear-gradient(90deg, hsla(152, 89%, 21%, 0.3),
     hsla(14, 98%, 50%, 0));
+    font-family: "Montserrat";
+    font-weight: 600;
 }
 .home__scroll{
     display: block;
