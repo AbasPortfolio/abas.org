@@ -363,7 +363,6 @@ body.darkTheme{
     position: relative;
     width: auto;
     align-self: center;
-    z-index: 20;
 }
 .home__shadow{
     width: 100%;
@@ -424,10 +423,10 @@ body.darkTheme{
 }
 .home__description{
     text-align: center;
-    font-family: "Caveat";
-    font-weight: 400;
-    font-size: 35px !important;
-    color: #1a573d;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 21px;
+    color: var(--text-color-light);
     margin-bottom: 1.5rem;
 }
 .home__description b{
