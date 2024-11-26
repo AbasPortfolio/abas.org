@@ -363,6 +363,7 @@ body.darkTheme{
     position: relative;
     width: auto;
     align-self: center;
+    z-index: 20;
 }
 .home__shadow{
     width: 100%;
