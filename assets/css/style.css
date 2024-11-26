@@ -358,12 +358,12 @@ body.darkTheme{
 }
 .home__image{
     width: 300px;
+    z-index: 20;
 }
 .home__img{
     position: relative;
     width: auto;
     align-self: center;
-    z-index: 20;
 }
 .home__shadow{
     width: 100%;
