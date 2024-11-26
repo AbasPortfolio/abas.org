@@ -358,11 +358,11 @@ body.darkTheme{
 }
 .home__image{
     width: 300px;
-    z-index: 5;
 }
 .home__img{
     position: relative;
     width: auto;
+    z-index: 5;
     align-self: center;
 }
 .home__shadow{
