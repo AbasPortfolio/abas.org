@@ -358,6 +358,7 @@ body.darkTheme{
 }
 .home__image{
     width: 300px;
+    z-index: 20;
 }
 .home__img{
     position: relative;
