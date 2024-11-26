@@ -361,7 +361,7 @@ body.darkTheme{
 }
 .home__img{
     position: relative;
-   
+   z-index: 5;
     width: auto;
     align-self: center;
 }
@@ -373,7 +373,6 @@ body.darkTheme{
     bottom: 0;
     right: 0;
     border: none;
-    z-index: 5;
     transition: background-color .4s;
 }
 .home__arrow,
