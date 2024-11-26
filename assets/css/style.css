@@ -361,7 +361,7 @@ body.darkTheme{
     z-index: 20;
 }
 .home__img{
-    position: relative;
+    position: absolute;
     width: auto;
     align-self: center;
 }
