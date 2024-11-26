@@ -525,7 +525,7 @@ body.darkTheme{
 }
 .about__image{
     position: relative;
-    border: 4px solid var(--text-color-light);
+    border: 4px solid var(--black-color-light);
     z-index: 1;
 }
 .about__img{
