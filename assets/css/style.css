@@ -580,7 +580,7 @@ body.darkTheme{
     content: '';
     width: 20px;
     height: 1px;
-    background-color: var(--title-color);
+    background-color: var(--text-color-light);
     position: absolute;
     left: -1.75rem;
     top: .5rem;
