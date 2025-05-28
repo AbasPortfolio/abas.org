@@ -168,8 +168,8 @@ body.darkTheme{
 .section__title-2::after{
     content: "";
     width: 40px;
-    height: 28px;
-    background-color: hsla(14, 98%, 50%, .2);
+    height: 40px;
+    background-color: e5d383;
     position: absolute;
     top: -4px;
     right: -8px;
