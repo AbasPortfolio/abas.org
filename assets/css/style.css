@@ -429,7 +429,7 @@ body.darkTheme{
     font-size: 22px;
     color: var(--text-color-light);
     margin-bottom: 1.5rem;
-    line-height: 22;
+    line-height: normal;
 }
 .home__description b{
     color: #191b1a;
