@@ -496,7 +496,7 @@ body.darkTheme{
     font-size: 1.25rem;
 }
 .button:hover{
-    background-color: #659681;
+    background-color: var(--black-color-light);
 }
 .button__ghost{
     border: 3px solid var(--black-color);
@@ -508,7 +508,7 @@ body.darkTheme{
     font-size: 1.25rem;
 }
 .button__ghost:hover{
-    border: 3px solid #659681;
+    border: 3px solid var(--black-color-light);
 }
 /* ====================== ABOUT ================= */
 .about{
