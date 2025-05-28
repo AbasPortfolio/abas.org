@@ -223,7 +223,7 @@ body.darkTheme{
     color: var(--title-color);
 }
 .nav__logo img{
-    width: 260px;
+    width: auto;
     height: auto;
 }
 .nav__logo-circle,
