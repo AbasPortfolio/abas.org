@@ -844,7 +844,7 @@ body.darkTheme{
     padding-top: 1rem;
 }
 .contact__button{
-    background-color: #659681;
+    background-color: rgb(19, 109, 64);
     cursor: pointer;
 }
 
@@ -899,7 +899,7 @@ body.darkTheme{
     transition: background-color .3s;
 }
 .contact__social-link:hover{
-    background-color: #1a573d;
+    background-color: var(--first-color);
 }
 .contact__message{
     color: var(--white-color);
