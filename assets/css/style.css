@@ -1355,7 +1355,7 @@ body.darkTheme{
         height: 375px;
         padding: 4.5rem 3.5rem 3.5rem;
         margin: 7.5rem 0 0 8rem;
-        border-bottom: 6px solid var(--first-color);
+        border-bottom: 6px solid #02848c;
     }
     .contact__data .section__title-2{
         margin: 0 0 2rem;
