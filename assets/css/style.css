@@ -1006,7 +1006,7 @@ body.darkTheme{
         justify-content: center;
     }
     .nav__logo img{
-        width: 120px;
+        width: 100%;
         height: auto;
     }
     .home__img{
@@ -1112,7 +1112,7 @@ body.darkTheme{
         background-color: transparent;
     }
     .nav__logo img{
-        width: 200px;
+        width: 100%;
         object-fit: cover;
     }
     .change-theme{
