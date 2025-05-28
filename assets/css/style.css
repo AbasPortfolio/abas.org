@@ -648,9 +648,17 @@ body.darkTheme{
     top: -2px;
 }
 .services__title{
-    color: #659681;
     font-size: var(--h2-font-size);
     margin-bottom: 1.25rem;
+}
+.services__title :nth-child(1){
+    color: seagreen;
+}
+.services__title :nth-child(2){
+    color: var(--first-color);
+}
+.services__title :nth-child(3){
+    color: var(--container-color);
 }
 
 /* ============================= PROJECTS ======================== */
