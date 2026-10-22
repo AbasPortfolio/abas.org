@@ -96,7 +96,7 @@ img{
     transition: color .3s;
 }
 /* ========== VARIABLE DARK THEME ================= */
-body.darkTheme{
+body.dark-theme{
     --first-color: hsl(14, 80%, 50%);
     --black-color: hsl(0, 0%, 18%);
     --black-color-light: hsl(0, 0%, 30%);
@@ -1397,4 +1397,95 @@ body.darkTheme{
     }
 
 
+}
+
+/* ===================== ABAS SYSTEMS ADDITIONS ===================== */
+/* Logo C: "abas." wordmark */
+.brand{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+}
+.brand__word{
+    font-family: var(--body-font);
+    font-weight: 800;
+    font-size: 1.6rem;
+    letter-spacing: -1px;
+    color: var(--title-color);
+}
+.brand__dot{
+    color: var(--first-color);
+}
+.brand__sub{
+    font-size: .55rem;
+    font-weight: var(--font-semi-bold);
+    letter-spacing: .35rem;
+    padding-left: .35rem;
+    text-transform: uppercase;
+    color: var(--text-color);
+    margin-top: .15rem;
+}
+
+/* Hero call-to-action buttons */
+.home__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .75rem;
+    margin-bottom: 2.5rem;
+}
+.button__outline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+    border: 2px solid var(--black-color);
+    color: var(--title-color);
+    padding: 1rem 1.4rem;
+    font-weight: var(--font-medium);
+    transition: border-color .4s, color .4s;
+}
+.button__outline i{
+    font-size: 1.25rem;
+}
+.button__outline:hover{
+    border-color: var(--first-color);
+    color: var(--first-color);
+}
+.dark-theme .button__outline{
+    border-color: var(--white-color);
+}
+
+/* Direct contact (WhatsApp / email) */
+.contact__direct{
+    display: grid;
+    row-gap: .75rem;
+    justify-items: center;
+    margin-bottom: 2rem;
+}
+.contact__direct-link{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+    color: var(--white-color);
+    font-weight: var(--font-medium);
+}
+.contact__direct-link i{
+    font-size: 1.25rem;
+    color: var(--first-color);
+}
+.contact__direct-link:hover{
+    color: var(--first-color);
+}
+
+@media screen and (min-width: 1050px){
+    .home__buttons{
+        justify-content: flex-start;
+        padding-left: 3rem;
+        margin-top: -3.5rem;
+    }
+    .brand__word{
+        font-size: 2rem;
+    }
 }

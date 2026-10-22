@@ -58,6 +58,10 @@ const sendMail = (e)=>{
 }
 contactForm.addEventListener("submit", sendMail)
 
+/* ======================== FOOTER YEAR ===================== */
+const yearEl = document.getElementById('year')
+if(yearEl) yearEl.textContent = new Date().getFullYear()
+
 /* ======================== SCROLL UP SHOWN ===================== */
 const scrollUp = ()=>{
     const scrollUp = document.getElementById('scroll-up')
@@ -77,7 +81,9 @@ const scrollActive = ()=>{
         const sectionHeight = current.offsetHeight,
               sectionTop = current.offsetTop - 58,
               sectionId = current.getAttribute('id'),
-              sectionsClass = document.querySelector('.nav__menu a[href* = ' + sectionId + ']')
+              sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
+
+        if(!sectionsClass) return
 
         if(scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight){
             sectionsClass.classList.add('active-link')
@@ -86,6 +92,7 @@ const scrollActive = ()=>{
         }
     })
 }
+window.addEventListener('scroll', scrollActive)
 
 /* ============================= DARK THEM LIGHT ========================== */
 const themeButton = document.getElementById('theme-button')
@@ -108,8 +115,8 @@ if(selectedTheme){
 }
 themeButton.addEventListener('click', ()=>{
     // Add or remove the dark / icon theme
-    document.body.classList.toggle('darkTheme')
-    themeButton.classList.toggle('iconTheme')
+    document.body.classList.toggle(darkTheme)
+    themeButton.classList.toggle(iconTheme)
     // We save the theme and the current icon in the local storage tha the use chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
@@ -125,4 +132,4 @@ const sr = ScrollReveal({
 sr.reveal(`.home__perfil, .about__image, .contact__mail`, {origin: 'right'})
 sr.reveal(`.home__name, .home__info, .about__container .section__title-1, .about__info, 
 .contact__social, .contact__data `, {origin: 'left'})
-sr.reveal(`.services__card, .projects__card`, {interval: 100})
+sr.reveal(`.services__card, .projects__card`, {interval: 100})
